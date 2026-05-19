@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <h1>PREEXAMEN</h1>
+    <h1 class="text-3xl font-bold">PREEXAMEN</h1>
+    <button class="button border p-2 cursor-pointer bg-blue-400">Mostrar</button>
+    <button class="limpiar border p-2 cursor-pointer bg-orange-300">Limpiar</button>
+    <div class="div mb-5">
+        <p>Contenido</p>
+    </div>    
+    
+    <input type="text" placeholder="Nombre" class="border-collapse bg-gray-200 nom">
+    <select name="" id="select" class="bg-gray-200">
+        <option value="SMX2">SMX2</option>
+        <option value="DAW2">DAW2</option>
+    </select>
+    <button class="btn3 border bg-blue-200 p-3">Insertar Alumno</button>
+    <div class="Alumnos border text-center mx-10 mt-2">
+        <p>Alumnos</p>
+    </div>
+
+    <input type="text" class="mt-5 bg-gray-200 img" placeholder="http://mifoto.jpg">
+    <div class="limitado w-[200px] h-[200px] mx-auto shadow-2xl">
+    </div>
+    
+    <section class="mt-10 bg-gray-200 mx-2 mb-10">
+        <h2 class="text-center font-bold text-xl mb-2">Guitarras disponibles</h2>
+        <div class="divsection flex flex-wrap">
+
+        </div>
+    </section>
+
+    <input type="text" class="marca" placeholder="marca">
+    <input type="text" class="modelo" placeholder="modelo">
+    <input type="number" placeholder="Precio" class="precio">
+    <select name="" id="guitarra">
+        <option value="acustica">Acústica</option>
+        <option value="electrica">Eléctrica</option>
+    </select>
+    <button class="iG bg-blue-300 p-2 border cursor-pointer">Insertar Guitarra</button><br>
+
+    <input type="text" class="mt-10 marca" placeholder="buscador por marca">
+    <div class="resultado">
+
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
