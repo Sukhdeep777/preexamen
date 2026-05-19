@@ -96,8 +96,15 @@ function addG(){
 btnG.addEventListener("click",addG)
 
 function mostrar(){
+    resultado.innerHTML = ""
     let texto = inputMarca.value
-    
+    let ul = "<ul>"
+    for(let i=0;i < guitarras.length; i++){
+        if (guitarras[i].marca == texto){
+           ul+=`<li>${guitarras[i].marca} - ${guitarras[i].modelo}</li>`
+        }   
+    }
+    resultado.innerHTML = ul
 }
 
 inputMarca.addEventListener("input",mostrar)
