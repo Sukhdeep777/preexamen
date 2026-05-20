@@ -14,7 +14,7 @@ let modelo = document.querySelector(".modelo")
 let precio = document.querySelector(".precio")
 let selectG = document.querySelector("#guitarra")
 let btnG = document.querySelector(".iG")
-let inputMarca = document.querySelector(".marca")
+let inputMarca = document.querySelector(".marca1")
 let resultado = document.querySelector(".resultado")
 
 function click(){
