@@ -95,8 +95,7 @@ function addG(){
 
 btnG.addEventListener("click",addG)
 
-function mostrar(){
-   
+function mostrar(){  
     resultado.innerHTML = ""
     let texto = inputMarca.value
     let ul = "<ul>"
