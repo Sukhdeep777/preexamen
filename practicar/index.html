@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .divContenido{
+            border: 3px solid orange
+        }
+    </style>
 </head>
-<body>
-    
+<body class="mx-2 my-2">
+    <button class="mostrar p-5 border rounded-xl bg-blue-200 cursor-pointer">Mostrar</button>
+    <button class="limpiar p-5 border rounded-xl bg-red-200 cursor-pointer">Limpiar</button>
+    <div class="dmostrar shadow-xl border rounded-2xl mt-4 text-center">
+        Contenido
+    </div>
+    <hr class="mt-10">
+    <input type="text" name="" id="nombre" placeholder="Nombre" class="bg-gray-200 mt-5 hover:bg-blue-400 transition-all">
+    <select name="" id="selectn">
+        <option value="SMX2">SMX2</option>
+        <option value="DAW2">DAW2</option>
+    </select>
+    <button class="insertar p-5 bg-gray-300 rounded-xl mt-2 cursor-pointer hover:bg-blue-400 transition-all duration-200">Insertar</button>
+    <div class="alumnos">Alumnos</div>
+    <hr class="mt-10">
+    <input type="text" class="imagen mt-2 bg-gray-200" placeholder="http://mifotoperfil.jpg">
+    <div class="w-[200] h-[200] imagend">
+
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
